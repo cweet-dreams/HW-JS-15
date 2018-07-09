@@ -17,6 +17,7 @@ class Http {
     this.http.send();
   }
 
+
   post(url, data, callback) {
     if (!data) return callback('Error: Data обязательный параметр');
 
